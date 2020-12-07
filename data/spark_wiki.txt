@@ -1,0 +1,7 @@
+Apache Spark is and open-source distributed general-purpose cluster-computing framework.
+Spark provides an interface for programming entire clusters with implicit data parallelism and fault tolerance.
+Originally developed at the University of California, Berkeley's AMP Lab, the Spark codebase was later donated to the Apache Software Foundation, which has maintained it since.
+Apache Spark has its architectural foundation in the resilient distributed dataset(RDD), a read only multiset of data items distributed over a cluster of machines, that is maintained in a fault-tolerant way.
+The Dataframe API was released as an abstraction on top of the RDD, followed by the Dataset API.
+In Spark 1.x, the RDD was the primary application programming interface(API), but as of Spark 2.x use of the Dataset API is encouraged even though the RDD  API is not deprecated.
+The RDD technology still underlies the Dataset API.
